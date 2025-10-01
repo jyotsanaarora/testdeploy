@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       component: tool
-  replicas: 4
+  replicas: 5
   revisionHistoryLimit: 3
   template:
     metadata:
