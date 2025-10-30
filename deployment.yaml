@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: testdeployevents
-  namespace: test-custom-gitops
+  namespace: openshift-gitops
 spec:
   selector:
     matchLabels:
