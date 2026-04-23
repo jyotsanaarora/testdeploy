@@ -4,7 +4,6 @@ metadata:
   # Replace 'argocd-app-creator' with a descriptive name
   name: argocd-app-creator
   # Replace 'your-target-namespace' with the namespace where users will create ArgoCD Applications
-  namespace: test-jyo-argo 
 rules:
   - apiGroups:
       # This is the API group for ArgoCD's Application CRD
