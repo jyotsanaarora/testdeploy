@@ -21,8 +21,9 @@ spec:
       labels:
         component: tool
     spec:
-      containers:
-      - name: nginx
-        image: nginx:1.26.0
-        ports: 
-          - containerPort: 80
+     containers:
+      - name: envar-demo-container
+        image: gcr.io/google-samples/node-hello:1.0
+        env:
+        - name: DEMO_GREETING
+          value: "Hello from the environment"
